@@ -89,3 +89,4 @@ CREATE TABLE Paiements (
     Methode VARCHAR(50) NOT NULL,
     FOREIGN KEY (ID_Reservation) REFERENCES Reservations(ID_Reservation)
 );
+
